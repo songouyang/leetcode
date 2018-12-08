@@ -94,3 +94,9 @@ theme_config:
     Blog: https://www.ouyangsong.com
     GitHub: https://github.com/songouyang
     Rss: /atom.xml
+
+de_sass:
+  debug: false
+  outputStyle: nested
+  precision: 5
+  sourceComments: false
