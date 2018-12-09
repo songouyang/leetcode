@@ -8,7 +8,7 @@ subtitle: 刷题心得与笔记
 description: 欧阳松的刷题笔记
 keywords: LeetCode, 刷题笔记, 答案, @ouyangsong, @欧阳松
 author: 欧阳松
-language:
+language: zh-cn
 timezone:
 
 # URL
@@ -94,6 +94,7 @@ theme_config:
     Blog: https://www.ouyangsong.com
     GitHub: https://github.com/songouyang
     Rss: /atom.xml
+  startyear: 2018
 
 de_sass:
   debug: false
