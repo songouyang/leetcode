@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "10"
+  - "8.9"
 
 branches:
   only:
@@ -11,12 +11,14 @@ cache:
   directories:
     - node_modules
 
+before_install:
+  - sed -i "s/http:\/\/registry.npm.taobao.org/https:\/\/registry.npmjs.org/g" yarn.lock
+
 install:
   - yarn
 
 before_script:
-  - sed -i 's/root:\ \//root:\ \/leetcode\//' _config.yml
-  - sed -i "s/http:\/\/registry.npm.taobao.org/https:\/\/registry.npmjs.org/g" yarn.lock
+  - sed -i '/root:\ /{s/\//\/leetcode\//}' _config.yml
 
 script:
   - hexo generate
