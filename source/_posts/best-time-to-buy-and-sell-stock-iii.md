@@ -38,7 +38,7 @@ public:
 };
 ```
 
-求左边的最大利益的时候和 [121. Best Time to Buy and Sell Stock](/best-time-to-buy-and-sell-stock/) 一样，但是右边的最大利益求法需要反过来，`flag` 是最高的出价而不再是最低入价了。
+求左边的最大利益的时候和 [121. Best Time to Buy and Sell Stock](https://songouyang.github.io/leetcode/best-time-to-buy-and-sell-stock/) 一样，但是右边的最大利益求法需要反过来，`flag` 是最高的出价而不再是最低入价了。
 
 分享一下高分答案，只需要遍历一次数组就可以了。
 

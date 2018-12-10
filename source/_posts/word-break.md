@@ -9,7 +9,7 @@ alias: 139/
 
 <!--more-->
 
-这个题目之前的 [132. Palindrome Partitioning II](/palindrome-partitioning-ii/) 很类似。只是需要注意的话，如果找到 `dp[i]` 等于 `true` 的时候跳出循环，因为只要求证能否分割开来。
+这个题目之前的 [132. Palindrome Partitioning II](https://songouyang.github.io/leetcode/palindrome-partitioning-ii/) 很类似。只是需要注意的话，如果找到 `dp[i]` 等于 `true` 的时候跳出循环，因为只要求证能否分割开来。
 
 ```cpp
 class Solution {

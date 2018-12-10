@@ -5,7 +5,7 @@ tags:
 alias: 142/
 ---
 
-和 [141. Linked List Cycle](/linked-list-cycle/) 相比，这次还需要找出环的起点。
+和 [141. Linked List Cycle](https://songouyang.github.io/leetcode/linked-list-cycle/) 相比，这次还需要找出环的起点。
 
 <!--more-->
 

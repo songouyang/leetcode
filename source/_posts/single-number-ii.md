@@ -5,7 +5,7 @@ tags:
 alias: 137/
 ---
 
-和 [136. Single Number](/single-number/) 不同的地方是这里的次数变成了 3 次。
+和 [136. Single Number](https://songouyang.github.io/leetcode/single-number/) 不同的地方是这里的次数变成了 3 次。
 
 <!--more-->
 

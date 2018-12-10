@@ -9,7 +9,7 @@ alias: 138/
 
 <!--more-->
 
-这不是和之前的深层复制图 [133. Clone Graph](/clone-graph/) 一样嘛。
+这不是和之前的深层复制图 [133. Clone Graph](https://songouyang.github.io/leetcode/clone-graph/) 一样嘛。
 
 ```cpp
 class Solution {
@@ -31,7 +31,7 @@ private:
 };
 ```
 
-但是其实比起 [133](/clone-graph/) 题，这一题其实还有优化的空间。可以把空间复杂度从 `O(n)` 优化到 `O(1)`。
+但是其实比起 [133](https://songouyang.github.io/leetcode/clone-graph/) 题，这一题其实还有优化的空间。可以把空间复杂度从 `O(n)` 优化到 `O(1)`。
 
 
 ```cpp

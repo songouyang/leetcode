@@ -5,7 +5,7 @@ tags:
 alias: 119/
 ---
 
-和 [118. Pascal's Triangle](/pascals-triangle/) 相比，本题只需要输出第 `k` 行即可，但是要求空间复杂度是 `O(n)`。
+和 [118. Pascal's Triangle](https://songouyang.github.io/leetcode/pascals-triangle/) 相比，本题只需要输出第 `k` 行即可，但是要求空间复杂度是 `O(n)`。
 
 <!--more-->
 

@@ -5,7 +5,7 @@ tags:
 alias: 117/
 ---
 
-和 [116. Populating Next Right Pointers in Each Node](/populating-next-right-pointers-in-each-node/) 相比，这一题的二叉树不是完全二叉树，并且题目要求空间复杂度是 `O(1)`。
+和 [116. Populating Next Right Pointers in Each Node](https://songouyang.github.io/leetcode/populating-next-right-pointers-in-each-node/) 相比，这一题的二叉树不是完全二叉树，并且题目要求空间复杂度是 `O(1)`。
 
 <!--more-->
 

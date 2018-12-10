@@ -9,7 +9,7 @@ alias: 148/
 
 <!--more-->
 
-因为时间复杂度有了对数，需要考虑一下分治的思想。首先找到中点，然后左右两边都递归调用排序函数。其中快慢指针找中点的方法可以参考 [143. Reorder List](/reorder-list/)。
+因为时间复杂度有了对数，需要考虑一下分治的思想。首先找到中点，然后左右两边都递归调用排序函数。其中快慢指针找中点的方法可以参考 [143. Reorder List](https://songouyang.github.io/leetcode/reorder-list/)。
 
 ```cpp
 class Solution {
