@@ -17,9 +17,6 @@ before_install:
 install:
   - yarn
 
-before_script:
-  - sed -i '/root:\ /{s/\//\/leetcode\//}' _config.yml
-
 script:
   - hexo generate
 
