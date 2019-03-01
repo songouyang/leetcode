@@ -7,15 +7,11 @@ branches:
   - master
 
 cache:
-  yarn: true
   directories:
     - node_modules
 
-before_install:
-  - sed -i "s/http:\/\/registry.npm.taobao.org/https:\/\/registry.npmjs.org/g" yarn.lock
-
 install:
-  - yarn
+  - npm install
 
 script:
   - hexo generate
