@@ -3,49 +3,19 @@
 
 class Solution {
 public:
-    vector<string> findItinerary(vector<pair<string, string>> tickets) {
-        for (auto ticket: tickets) {
-            routes[ticket.first].insert(ticket.second);
-        }
-        helper("JFK");
-        reverse(result.begin(), result.end());
-        return result;
-    }
+    bool isSelfCrossing(vector<int> &x) {
+        for (int i = 3; i < x.size(); ++i) {
+            if (x[i] >= x[i - 2] && x[i - 1] >= x[i - 3])return true;
+            if (i >= 4 && x[i - 1] == x[i - 3] && x[i] >= x[i - 2] - x[i - 4]) return true;
+            if (i >= 5 && x[i - 2] >= x[i - 4] && x[i - 1] >= x[i - 3] - x[i - 5] && x[i] >= x[i - 2] - x[i - 4] &&
+                x[i - 3] >= x[i - 1])
+                return true;
 
-private:
-    map<string, multiset<string>> routes;
-    vector<string> result;
-
-    void helper(string start) {
-        while (routes[start].size()) {
-            auto tmp = *routes[start].begin();
-            routes[start].erase(routes[start].begin());
-            helper(tmp);
         }
-        result.push_back(start);
+        return false;
     }
 };
 
-
 int main() {
-    vector<vector<int>> matrix = {
-            {1, 2, 3},
-            {2, 1},
-            {3},
-    };
-    vector<pair<int, int>> edge = {
-            {1, 0},
-            {1, 2},
-            {1, 3}
-    };
-    vector<int> nums = {4, 1, 8, 2, 6};
-    vector<pair<string, string>> tickets = {
-            {"MUC", "LHR"},
-            {"JFK", "MUC"},
-            {"SFO", "SJC"},
-            {"LHR", "SFO"}
-    };
-    print(tickets);
     Solution s;
-    print(s.findItinerary(tickets));
 }
